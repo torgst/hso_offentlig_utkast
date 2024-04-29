@@ -1,7 +1,7 @@
 # Retningslinjer for åpen kildekode i Helse Sør-Øst
 
 > [!WARNING]
-> Dette er et utkast til retnignslinjer for åpen kildekode i Helse Sør-Øst. Endelig versjon vil publiseres i Helse Sør-Østs offfentlige organisasjon på Github.
+> Dette er et utkast til retnignslinjer for åpen kildekode i Helse Sør-Øst. Endelig versjon vil publiseres i Helse Sør-Østs offentlige organisasjon på Github.
 
 ## Introduksjon
 
