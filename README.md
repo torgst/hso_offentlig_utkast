@@ -1,6 +1,6 @@
 # Retningslinjer for åpen kildekode i Helse Sør-Øst
 
-> [!WARNING]  
+> [!WARNING]
 > Dette er et utkast til retnignslinjer for åpen kildekode i Helse Sør-Øst. Endelig versjon vil publiseres i Helse Sør-Østs offfentlige organisasjon på Github.
 
 ## Introduksjon
@@ -70,7 +70,7 @@ GitHub har støtte for en spesiell fil som heter CODEOWNERS som angir hvilke tea
 
 Dette betyr at teamet _navn-på-team_ eier hele kodebasen (\* er wildcard). Vi ønsker ikke at enkeltpersoner skal stå oppført her.
 
-### Sanering av gammel kode:
+### Sikkerhetsvask av gammel kode:
 
 Både git-historikk og kode må vaskes for eventuelle hemmeligheter og personsensitive opplysninger. Her finnes det mange ulike verktøy man kan benytte seg av, og det finnes en liten [guide på GitHub](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository) om dette.
 

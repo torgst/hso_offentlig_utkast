@@ -57,7 +57,7 @@ Hvis du legger til en ny funksjon eller feilretting, sørg for at det er riktig 
 Hvis du har en branch på forken din som er klar til å slås sammen, vennligst opprett en ny pull-request. Vedlikeholderne vil gå gjennom for å sikre at retningslinjene ovenfor er fulgt, og hvis endringene er nyttige for alle bibliotekbrukere, vil de bli slått sammen.
 ```
 
-## Sanering av gammel kode
+## Sikkerhetsvask av gammel kode
 
 Om det er flytting av eksisterende kode må både [kode og Git historikk vaskes](sikkerhetsvask.md).
 
