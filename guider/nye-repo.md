@@ -29,7 +29,9 @@ Eksempel `CODEOWNERS`-fil:
 
 # Contributing
 
-Her kan vi oppgi hvordan andre både eksterne og ev. interne kan bidra på kodebasen, ev. spesifisere at kodebasen ikke tar imot bidrag:
+Her kan vi oppgi hvordan andre både eksterne og ev. interne kan bidra på kodebasen, ev. spesifisere at kodebasen ikke tar imot bidrag.
+
+> Hvis kodebasen åpner for bidrag, sjekk at dere også følger retningslinjene i [Åpne for bidrag](åpne-for-bidrag.md).
 
 Eksempel `CONTRIBUTING`-fil:
 
