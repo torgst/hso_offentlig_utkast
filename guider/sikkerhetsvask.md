@@ -7,6 +7,7 @@ Sensitiv informasjon inkluderer:
 - Personopplysninger, herunder fødselsnumre, navn, adresser, og telefonnumre
 - Passord og andre tilgangsnøkler
 - Nettverkstopologi
+  - Hvis det ligger IaC-kode i et offentlig repo så skal spesifikke konfigurasjoner ligge utenfor koden. Se [retningslinjer for åpen IaC-kode](retningslinjer-for-åpen-iac-kode.md).
 
 Eksempler på sårbarheter kan være:
 
