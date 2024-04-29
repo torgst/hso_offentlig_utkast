@@ -40,7 +40,7 @@ Kildekoden legges på https://github.com/helse-sorost
 
 ## Kvalitet og relevans:
 
-All kode i Helse Sør-Øst skal holde høy kvalitet, uavhengig om den er åpen eller lukket. At en kodebase har lav kodekvalitet er ikke i seg selv et argument for å la være å åpne den for innsyn, men et argument for å arbeide med å forbedre kodekvaliteten.
+All kode i Helse Sør-Øst skal holde [høy kvalitet](guider/kodekvalitet.md), uavhengig om den er åpen eller lukket. At en kodebase har lav kodekvalitet er ikke i seg selv et argument for å la være å åpne den for innsyn, men et argument for å arbeide med å forbedre kodekvaliteten.
 
 ## Krav til åpne repo under github.com/helse-sorost
 
@@ -94,7 +94,6 @@ Vi må holde noe data og kode lukket:
 Du må holde hemmelige data som nøkler eller legitimasjon lukket, fordi denne informasjonen kan tillate noen å få tilgang til systemet ditt. Du må videre holde kode som bruker hemmeligheter borte fra hemmelighetene i seg selv. Dette inkluderer lagring av hemmelige nøkler og legitimasjon. Du kan deretter åpne koden mens du holder hemmelighetene lukket og sikker. Du skal bruke et separat system for å lagre og sikre hemmelighetene dine, men la applikasjoner bruke dem der det er nødvendig. Et slikt system sørger for at bare autoriserte ansatte får tilgang til nøklene. Systemet gjør det også lettere å tilby forskjellige nøkler for forskjellige miljøer og rotere nøkler om nødvendig.
 
 > Følg veiledningen for å håndtere sikkerhetsproblemer hvis du ved et uhell eksponerer en hemmelighet. (TODO)
-
 
 ## Er du klar?
 
