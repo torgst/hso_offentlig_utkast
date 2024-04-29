@@ -1,5 +1,8 @@
 # Retningslinjer for åpen kildekode i Helse Sør-Øst
 
+> [!WARNING]  
+> Dette er et utkast til retnignslinjer for åpen kildekode i Helse Sør-Øst. Endelig versjon vil publiseres i Helse Sør-Østs offfentlige organisasjon på Github.
+
 ## Introduksjon
 
 Offentlig finansierte løsninger bør være offentlig tilgjengelig. Motivasjonen er da ikke hovedsakelig gjenbruk, selv om det selvsagt er en heldig bieffekt. Motivasjonen er først og fremst åpenhet og gjennomsiktighet i de digitale løsningene. Disse retningslinjene legger seg tett opptil retningslinjene fra tilsvarende retningslinjer fra [NAV](https://github.com/navikt/offentlig).
