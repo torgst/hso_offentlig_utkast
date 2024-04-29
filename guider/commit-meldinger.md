@@ -112,7 +112,7 @@ Prøver å fikse den jævla drittfeilen!!!
 Helvete. Jeg hater java. NullPointerException kan ta seg en bolle.
 ```
 
-Husk at alle kan lese meldingene, de kan være offentlige. Slike meldinger stiller både NAV og deg personlig i et dårlig lys.
+Husk at alle kan lese meldingene, de kan være offentlige. Slike meldinger stiller både Helse Sør-Øst og deg personlig i et dårlig lys.
 
 ## Litt litteratur på engelsk om temaet:
 
