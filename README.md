@@ -98,6 +98,12 @@ Du må holde hemmelige data som nøkler eller legitimasjon lukket, fordi denne i
 
 > Følg veiledningen for å håndtere sikkerhetsproblemer hvis du ved et uhell eksponerer en hemmelighet. (TODO)
 
+## Publisere bibliotek
+
+Hvis du lager et bibliotek som er naturlig å publisere på f.eks. Nuget, NPM eller PyPI så kan du gjøre det med Github Actions.
+
+> TODO: noen krav vi må beskrive (f.eks. informasjonskrav for hva som skal legges inn)?
+
 ## Er du klar?
 
 Sjekk ut guiden om [nye repo](guider/nye-repo.md). Husk at det er teamet selv som tar det ansvarlige valget om koden kan åpnes eller ikke.
