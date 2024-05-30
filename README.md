@@ -34,7 +34,7 @@ Kildekoden legges på https://github.com/helse-sorost
 
 ### Sikkerhet:
 
-Åpen kildekode gir både muligheter og utfordringer for sikkerheten. Når vi åpner opp for innsyn kan eksterne melde fra om sikkerhetshull i koden vår, slik at vi ender opp med sikrere systemer. Samtidig må vi sørge for at sensitiv informasjon, slik som personopplysninger og tilgangsnøkler, ikke kommer i hendene til aktører med ondsinnede hensikter. En rekke verktøy er tilgjengelige for å sikre nødvendig sikkerhet ved å kode åpent, disse verktøyene gjør ting som skanning etter 3-parts biblioteker med kjente sårbarheter, finner feil/bugs i koden, automatisk penetrasjonstesting etc. Når man oppdager sårbarheter må man raskt kunne deploye ny kode, som lukker denne sårbarheten.
+Åpen kildekode bidrar med alt fra transparens og hurtig respons på sikkerhetstrusler, til bedre tilpasset kode og støtte. Ved å utnytte den samarbeidende og transparente naturen til åpen kildekode kan organisasjoner bygge og vedlikeholde sikrere infrastrukturer. Dette vil til slutt bidra mot en mer robust sikkerhetsholdning (posture). HSØ gjør en rekke grep for å sikre koden før den publiseres ved blant annet hemmelighetscanning, IaC policy scanning og rutiner for publisering. Vi har stor tillit til koden vår og ønsker bidrag og tilbakemelding. Dette tror vi skjer best gjennom transparens og åpen kildekode.
 
 ### Ansvar:
 
