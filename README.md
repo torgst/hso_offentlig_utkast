@@ -54,7 +54,7 @@ _Dersom repositoryet ditt oppfyller disse kravene, så er det opp til teamet sel
 
 ### Lisens:
 
-Alle repoer må ha MIT-lisensen i en egen LICENSE-fil (plain text) eller en LICENSE.md-fil (markdown). Se [lisensiering.md](LISENSIERING.md)
+Alle repoer må ha en egen LICENSE-fil (plain text) eller en LICENSE.md-fil (markdown). Se [lisensiering.md](LISENSIERING.md) for detaljer om hvilke lisenser vi bruker i Helse Sør-Øst.
 
 ### README.md:
 
