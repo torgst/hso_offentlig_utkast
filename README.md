@@ -102,7 +102,9 @@ Du må holde hemmelige data som nøkler eller legitimasjon lukket, fordi denne i
 
 Hvis du lager et bibliotek som er naturlig å publisere på f.eks. Nuget, NPM eller PyPI så kan du gjøre det med Github Actions.
 
-> TODO: noen krav vi må beskrive (f.eks. informasjonskrav for hva som skal legges inn)?
+> TODO: vurdere om pakker som publiseres på pypi.org, dockerhub, powershell gallery eller lignende burde gjøres med en offisiell Helse Sør-Øst konto, og ev. etablere en rutine for opprettelse av offisielle kontoer på slike steder.
+> TODO: vurdere å lage noen reusable github workflows som er satt opp for publisering mot disse tjenestene.
+> TODO: vurdere signering av pakker med offisielt HSO sertifikat (enten som et krav, eller at vi opplyser om hvor man kan få tilgang til codesign sertifikat).
 
 ## Er du klar?
 
