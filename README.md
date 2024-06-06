@@ -14,7 +14,7 @@ Offentlig finansierte løsninger bør være offentlig tilgjengelig. Motivasjonen
 
 ### Hvordan åpne kildekode?
 
-Kildekoden legges på https://github.com/helse-sorost
+Du må lage en PR i admin-repoet og fylle ut sjekklisten som ligger i PR-malen. Følg fremgangsmåten beskrevet i [/helse-sorost/admin/RECIPES.md](https://github.com/helse-sorost/admin/blob/policy/RECIPES.md#gj%C3%B8re-ditt-repository-public).
 
 ## Åpen kildekode
 
