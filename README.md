@@ -70,15 +70,15 @@ GitHub har støtte for en spesiell fil som heter CODEOWNERS som angir hvilke tea
 
 Dette betyr at teamet _navn-på-team_ eier hele kodebasen (\* er wildcard). Vi ønsker ikke at enkeltpersoner skal stå oppført her.
 
-### Sikkerhetsvask av gammel kode:
+### Sikkerhetsvask
 
 Både git-historikk og kode må vaskes for eventuelle hemmeligheter og personsensitive opplysninger. Her finnes det mange ulike verktøy man kan benytte seg av, og det finnes en liten [guide på GitHub](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository) om dette.
 
-### Migrering av gammel kode:
+### Risikovurdering
 
 > TODO: Se om vi kan få en guide på dette.
 
-Ved migrering av gammel kode bør man kjøre en risikovurdering. ~~Team Tryggnok har lagd et verktøy for å gjennomføre en slik ROS-analyse. Ta kontakt med teamet på Slack i kanalen #tryggnok.~~
+Før koden publiseres må teamet gjøre en risikovurdering. ~~Team Tryggnok har lagd et verktøy for å gjennomføre en slik ROS-analyse. Ta kontakt med teamet på Slack i kanalen #tryggnok.~~
 
 ## Kode som ikke kan åpnes
 
