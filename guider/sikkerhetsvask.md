@@ -15,6 +15,13 @@ Eksempler på sårbarheter kan være:
 - API-endepunkter som ikke er tilstrekkelig sikret
 - Tilbøyelighet for Denial of Service (DoS-angrep)
 
+## Krav før open sourcing
+
+- [ ] Det skal ikke være **åpne** sikkerhetsvarsler i GitHub når repoet endres til `public`.\
+      Når det gjelder kodeskanning så er det lov å "dismisse" et varsel iht. de årsakene som er mulig å oppgi i GitHub (false positive, used in tests, not relevant), men det skal alltid grunngis hvorfor dette varselet ikke er et problem.
+
+![åpne sikkerhetsvarsler](security_overview.png)
+
 ## Fremgangsmåte
 
 Gjør et [søk i Git-historikken](#søke-etter-sensitiv-informasjon) etter sensitiv informasjon. Dersom slik informasjon foreligger, må [Git-historikken skrives om](#skrive-om-git-historikk).
