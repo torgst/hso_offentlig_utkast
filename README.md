@@ -76,9 +76,7 @@ Både git-historikk og kode må vaskes for eventuelle hemmeligheter og personsen
 
 ### Risikovurdering
 
-> TODO: Se om vi kan få en guide på dette.
-
-Før koden publiseres må teamet gjøre en risikovurdering. ~~Team Tryggnok har lagd et verktøy for å gjennomføre en slik ROS-analyse. Ta kontakt med teamet på Slack i kanalen #tryggnok.~~
+Før koden publiseres må teamet gjøre en risikovurdering. Sikkerhet i Sykehuspartner har lagd en prosess for å gjennomføre en slik risikovurdering. Ta kontakt igjennom Security Champions-nettverket på teams: [SPHF-X-Security Champion Community | Microsoft Teams](https://teams.microsoft.com/l/team/19%3AhVn1eVfvz2ccCsgZQr1sLL_85HEwXc9ZnLaS6Z_3AU41%40thread.tacv2/conversations?groupId=1b9fe348-807a-4192-8053-f598479d245a&tenantId=7f8e4cf0-71fb-489c-a336-3f9252a63908).
 
 ## Kode som ikke kan åpnes
 
