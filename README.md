@@ -14,7 +14,7 @@ Offentlig finansierte løsninger bør være offentlig tilgjengelig. Motivasjonen
 
 ### Hvordan åpne kildekode?
 
-Kildekoden legges på https://github.com/helse-sorost
+Du må lage en PR i admin-repoet og fylle ut sjekklisten som ligger i PR-malen. Følg fremgangsmåten beskrevet i [/helse-sorost/admin/RECIPES.md](https://github.com/helse-sorost/admin/blob/policy/RECIPES.md#gj%C3%B8re-ditt-repository-public).
 
 ## Åpen kildekode
 
@@ -34,7 +34,7 @@ Kildekoden legges på https://github.com/helse-sorost
 
 ### Sikkerhet:
 
-Åpen kildekode gir både muligheter og utfordringer for sikkerheten. Når vi åpner opp for innsyn kan eksterne melde fra om sikkerhetshull i koden vår, slik at vi ender opp med sikrere systemer. Samtidig må vi sørge for at sensitiv informasjon, slik som personopplysninger og tilgangsnøkler, ikke kommer i hendene til aktører med ondsinnede hensikter. En rekke verktøy er tilgjengelige for å sikre nødvendig sikkerhet ved å kode åpent, disse verktøyene gjør ting som skanning etter 3-parts biblioteker med kjente sårbarheter, finner feil/bugs i koden, automatisk penetrasjonstesting etc. Når man oppdager sårbarheter må man raskt kunne deploye ny kode, som lukker denne sårbarheten.
+Åpen kildekode bidrar med alt fra transparens og hurtig respons på sikkerhetstrusler, til bedre tilpasset kode og støtte. Ved å utnytte den samarbeidende og transparente naturen til åpen kildekode kan organisasjoner bygge og vedlikeholde sikrere infrastrukturer. Dette vil til slutt bidra mot en mer robust sikkerhetsholdning (posture). HSØ gjør en rekke grep for å sikre koden før den publiseres ved blant annet hemmelighetscanning, IaC policy scanning og rutiner for publisering. Vi har stor tillit til koden vår og ønsker bidrag og tilbakemelding. Dette tror vi skjer best gjennom transparens og åpen kildekode.
 
 ### Ansvar:
 
@@ -54,7 +54,7 @@ _Dersom repositoryet ditt oppfyller disse kravene, så er det opp til teamet sel
 
 ### Lisens:
 
-Alle repoer må ha MIT-lisensen i en egen LICENSE-fil (plain text) eller en LICENSE.md-fil (markdown). Se [lisensiering.md](LISENSIERING.md)
+Alle repoer må ha en egen LICENSE-fil (plain text) eller en LICENSE.md-fil (markdown). Se [lisensiering.md](LISENSIERING.md) for detaljer om hvilke lisenser vi bruker i Helse Sør-Øst.
 
 ### README.md:
 
@@ -70,15 +70,13 @@ GitHub har støtte for en spesiell fil som heter CODEOWNERS som angir hvilke tea
 
 Dette betyr at teamet _navn-på-team_ eier hele kodebasen (\* er wildcard). Vi ønsker ikke at enkeltpersoner skal stå oppført her.
 
-### Sikkerhetsvask av gammel kode:
+### Sikkerhetsvask
 
 Både git-historikk og kode må vaskes for eventuelle hemmeligheter og personsensitive opplysninger. Her finnes det mange ulike verktøy man kan benytte seg av, og det finnes en liten [guide på GitHub](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository) om dette.
 
-### Migrering av gammel kode:
+### Risikovurdering
 
-> TODO: Se om vi kan få en guide på dette.
-
-Ved migrering av gammel kode bør man kjøre en risikovurdering. ~~Team Tryggnok har lagd et verktøy for å gjennomføre en slik ROS-analyse. Ta kontakt med teamet på Slack i kanalen #tryggnok.~~
+Før koden publiseres må teamet gjøre en risikovurdering. Sikkerhet i Sykehuspartner har lagd en prosess for å gjennomføre en slik risikovurdering. Ta kontakt igjennom Security Champions-nettverket på teams: [SPHF-X-Security Champion Community | Microsoft Teams](https://teams.microsoft.com/l/team/19%3AhVn1eVfvz2ccCsgZQr1sLL_85HEwXc9ZnLaS6Z_3AU41%40thread.tacv2/conversations?groupId=1b9fe348-807a-4192-8053-f598479d245a&tenantId=7f8e4cf0-71fb-489c-a336-3f9252a63908).
 
 ## Kode som ikke kan åpnes
 
@@ -102,7 +100,9 @@ Du må holde hemmelige data som nøkler eller legitimasjon lukket, fordi denne i
 
 Hvis du lager et bibliotek som er naturlig å publisere på f.eks. Nuget, NPM eller PyPI så kan du gjøre det med Github Actions.
 
-> TODO: noen krav vi må beskrive (f.eks. informasjonskrav for hva som skal legges inn)?
+> TODO: vurdere om pakker som publiseres på pypi.org, dockerhub, powershell gallery eller lignende burde gjøres med en offisiell Helse Sør-Øst konto, og ev. etablere en rutine for opprettelse av offisielle kontoer på slike steder.
+> TODO: vurdere å lage noen reusable github workflows som er satt opp for publisering mot disse tjenestene.
+> TODO: vurdere signering av pakker med offisielt HSO sertifikat (enten som et krav, eller at vi opplyser om hvor man kan få tilgang til codesign sertifikat).
 
 ## Er du klar?
 

@@ -7,13 +7,20 @@ Sensitiv informasjon inkluderer:
 - Personopplysninger, herunder fødselsnumre, navn, adresser, og telefonnumre
 - Passord og andre tilgangsnøkler
 - Nettverkstopologi
-  - Hvis det ligger IaC-kode i et offentlig repo så skal spesifikke konfigurasjoner ligge utenfor koden. Se [retningslinjer for åpen IaC-kode](retningslinjer-for-åpen-iac-kode.md).
+  - Som hovedregel skal det ikke ligge IaC-kode i et offentlig repo. Se [retningslinjer for åpen IaC-kode](retningslinjer-for-åpen-iac-kode.md).
 
 Eksempler på sårbarheter kan være:
 
 - Avhengighet på programbiblioteker der det foreligger sikkerhetshull (se [sårbarhetsscan](sårbarhetsscan.md))
 - API-endepunkter som ikke er tilstrekkelig sikret
 - Tilbøyelighet for Denial of Service (DoS-angrep)
+
+## Krav før open sourcing
+
+- [ ] Det skal ikke være **åpne** sikkerhetsvarsler i GitHub når repoet endres til `public`.\
+      Når det gjelder kodeskanning så er det lov å "dismisse" et varsel iht. de årsakene som er mulig å oppgi i GitHub (false positive, used in tests, not relevant), men det skal alltid grunngis hvorfor dette varselet ikke er et problem.
+
+![åpne sikkerhetsvarsler](security_overview.png)
 
 ## Fremgangsmåte
 
